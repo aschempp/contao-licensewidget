@@ -25,4 +25,10 @@
  */
 
 
-$GLOBALS['BE_FFL']['license'] = 'LicenseWidget';
+/**
+ * Register the classes
+ */
+ClassLoader::addClasses(array
+(
+    'Contao\LicenseWidget' => 'system/modules/licensewidget/widgets/LicenseWidget.php',
+));
